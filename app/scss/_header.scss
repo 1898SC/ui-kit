@@ -1,0 +1,20 @@
+header {
+  top: 78px;
+  padding-left: 24px;
+  display: inline-table;
+  position: sticky !important;
+
+  nav {
+    ul {
+      list-style: none;
+      padding: 0 0 12px 0;
+      font-size: 16px;
+      line-height: 32px;
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: #e10a0a;
+  }
+}

@@ -1,0 +1,21 @@
+.base-font-size {
+  font-size: 14px;
+}
+@media screen and (min-width: 320px) {
+  .base-font-size {
+    font-size: calc(14px + (26 - 14) * ((100vw - 320px) / (1200 - 320)));
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .base-font-size {
+    font-size: 16px;
+  }
+}
+
+// .fluid-typography {
+//
+//   &__paragraph {
+//     line-height: : 24px;
+//   }
+// }
